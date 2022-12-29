@@ -38,3 +38,5 @@ install(TARGETS 2048
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/data
         DESTINATION ${CMAKE_INSTALL_PREFIX})
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=gbk")
